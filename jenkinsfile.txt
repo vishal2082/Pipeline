@@ -1,0 +1,21 @@
+node {
+    stage('Checkout code') {
+    // some block
+    }
+   
+    stage('Test Execution') {
+    // some block
+    }
+
+    stage('Package') {
+     // some block   
+   }
+
+   stage('Archival') {
+    // some block 
+   }
+
+   stage('Deploy to Dev') {
+  // some block
+   }
+}
